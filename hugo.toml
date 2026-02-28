@@ -1,0 +1,414 @@
+baseURL = "https://danilomarroco.github.io/meu-blog/"
+# Idioma padrão
+defaultContentLanguage = "pt-br"
+# Código de idioma
+languageCode = "pt-br"
+# Título do site
+title = "Meu Blog Pessoal"
+
+# Tema
+theme = "FixIt"
+
+# Se o site tem conteúdo em idiomas CJK (Chinês, Japonês, Coreano)
+hasCJKLanguage = false
+
+# Paginação
+[pagination]
+  pagerSize = 12
+
+# Habilitar Emoji
+enableEmoji = true
+
+# Habilitar Git Info
+enableGitInfo = false
+
+# Habilitar robots.txt
+enableRobotsTXT = true
+
+# Google Analytics ID
+googleAnalytics = ""
+
+[author]
+  name = "Danilo Marroco"
+  email = "marroco@tuta.io"
+  link = ""
+
+# Menu de navegação
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+    [menu.main.params]
+      icon = "fa-solid fa-archive"
+  
+  [[menu.main]]
+    identifier = "categories"
+    name = "Categorias"
+    url = "/categories/"
+    weight = 2
+    [menu.main.params]
+      icon = "fa-solid fa-th"
+  
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+    [menu.main.params]
+      icon = "fa-solid fa-tags"
+  
+  [[menu.main]]
+    identifier = "about"
+    name = "Sobre"
+    url = "/about/"
+    weight = 4
+    [menu.main.params]
+      icon = "fa-solid fa-user"
+
+[params]
+  # Versão do tema FixIt
+  version = "0.3.X"
+  
+  # Descrição do site
+  description = "Um blog sobre tecnologia, programação e vida"
+  
+  # Palavras-chave do site
+  keywords = ["Blog", "Tecnologia", "Hugo", "Desenvolvimento"]
+  
+  # Imagem padrão para compartilhamento social
+  images = []
+
+  # Cabeçalho do site
+  [params.header]
+    # Modo desktop
+    [params.header.desktop]
+      enable = true
+      [params.header.desktop.title]
+        logo = ""
+        name = "Meu Blog"
+        pre = ""
+        post = ""
+        typeit = false
+    
+    # Modo mobile
+    [params.header.mobile]
+      enable = true
+      [params.header.mobile.title]
+        logo = ""
+        name = "Meu Blog"
+        pre = ""
+        post = ""
+        typeit = false
+
+  # Rodapé do site
+  [params.footer]
+    enable = true
+    # HTML customizado
+    custom = ""
+    # Se mostrar informações do Hugo
+    hugo = true
+    # Se mostrar copyright
+    copyright = true
+    # Se mostrar autor
+    author = true
+    # Ano de criação
+    since = 2024
+    # Licença
+    license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+    
+    # Informações do site
+    [params.footer.siteInfo]
+      enable = true
+      animated = true
+      icon = "<i class='fa-solid fa-heart' style='color: red;'></i>"
+
+  # Seção (lista de posts)
+  [params.section]
+    # Data
+    dateFormat = "02-01-2006"
+    # Número de posts por página
+    paginate = 20
+    # RSS
+    rss = 10
+
+  # Lista (página inicial)
+  [params.list]
+    # Data
+    dateFormat = "02-01-2006"
+    # RSS
+    rss = 10
+    # Mostrar paginator
+    paginator = 20
+
+  # Home page
+  [params.home]
+    # RSS
+    rss = 10
+    
+    [params.home.profile]
+      enable = true
+      # URL da foto de perfil
+      avatarURL = ""
+      # Título
+      title = "Bem-vindo ao Meu Blog!"
+      # Subtítulo
+      subtitle = "Compartilhando conhecimento sobre tecnologia e desenvolvimento"
+      # Se habilitar typeit
+      typeit = true
+      # Redes sociais
+      social = true
+      # Disclaimer
+      disclaimer = ""
+    
+    [params.home.posts]
+      enable = true
+      # Número de posts na página inicial
+      paginate = 6
+
+  # Redes sociais
+  [params.social]
+    GitHub = "seu-usuario"
+    Linkedin = ""
+    Twitter = ""
+    Instagram = ""
+    Facebook = ""
+    Telegram = ""
+    Email = "seu-email@exemplo.com"
+    RSS = true
+
+  # Configuração de busca
+  [params.search]
+    enable = true
+    # Tipo de busca (lunr, algolia)
+    type = "lunr"
+    # Comprimento máximo do conteúdo
+    contentLength = 4000
+    # Placeholder
+    placeholder = "Buscar..."
+    maxResultLength = 10
+    snippetLength = 50
+    highlightTag = "em"
+    absoluteURL = false
+    [params.search.algolia]
+      index = ""
+      appID = ""
+      searchKey = ""
+
+  # Configuração da página
+  [params.page]
+    # Se ocultar da página inicial
+    hiddenFromHomePage = false
+    # Se ocultar da busca
+    hiddenFromSearch = false
+    # Se habilitar twemoji
+    twemoji = false
+    # Se habilitar lightgallery
+    lightgallery = false
+    # Se habilitar ruby
+    ruby = true
+    # Se habilitar fraction
+    fraction = true
+    # Se habilitar fontawesome
+    fontawesome = true
+    # Se mostrar link para editar
+    linkToEdit = ""
+    # Se mostrar link para reportar issue
+    linkToReport = ""
+    # Se mostrar link para o código fonte
+    linkToSource = ""
+    
+    # Table of Contents (Índice)
+    [params.page.toc]
+      enable = true
+      keepStatic = false
+      auto = true
+      position = "right"
+    
+    # Blocos de código
+    [params.page.code]
+      copy = true
+      maxShownLines = 20
+    
+    # Matemática (KaTeX)
+    [params.page.math]
+      enable = false
+      copyTex = true
+      mhchem = false
+    
+    # Mapas
+    [params.page.mapbox]
+      accessToken = ""
+      lightStyle = "mapbox://styles/mapbox/light-v10"
+      darkStyle = "mapbox://styles/mapbox/dark-v10"
+      navigation = true
+      geolocate = true
+      scale = true
+      fullscreen = true
+    
+    # Links de compartilhamento social
+    [params.page.share]
+      enable = true
+      Twitter = true
+      Facebook = true
+      Linkedin = true
+      Whatsapp = true
+      Pinterest = false
+      Tumblr = false
+      HackerNews = false
+      Reddit = false
+      VK = false
+      Buffer = false
+      Xing = false
+      Line = false
+      Instapaper = false
+      Pocket = false
+      Flipboard = false
+      Weibo = false
+      Myspace = false
+      Blogger = false
+      Baidu = false
+      Odnoklassniki = false
+      Evernote = false
+      Skype = false
+      Trello = false
+      Mix = false
+    
+    # Comentários
+    [params.page.comment]
+      enable = false
+      # Disqus
+      [params.page.comment.disqus]
+        enable = false
+        shortname = ""
+      # Gitalk
+      [params.page.comment.gitalk]
+        enable = false
+        owner = ""
+        repo = ""
+        clientId = ""
+        clientSecret = ""
+      # Valine
+      [params.page.comment.valine]
+        enable = false
+        appId = ""
+        appKey = ""
+        placeholder = ""
+        avatar = "mp"
+        meta = ""
+        pageSize = 10
+        lang = "pt-BR"
+        visitor = true
+        recordIP = true
+        highlight = true
+        enableQQ = false
+        serverURLs = ""
+      # Giscus
+      [params.page.comment.giscus]
+        enable = false
+        repo = ""
+        repoId = ""
+        category = ""
+        categoryId = ""
+        mapping = "pathname"
+        reactionsEnabled = "1"
+        emitMetadata = "0"
+        inputPosition = "bottom"
+        lazyLoading = false
+        lightTheme = "light"
+        darkTheme = "dark"
+
+  # TypeIt
+  [params.typeit]
+    speed = 100
+    cursorSpeed = 1000
+    cursorChar = "|"
+    duration = -1
+
+  # Verificação de site
+  [params.verification]
+    google = ""
+    bing = ""
+    yandex = ""
+    pinterest = ""
+    baidu = ""
+    so = ""
+    sogou = ""
+
+  # Analytics
+  [params.analytics]
+    enable = false
+    [params.analytics.google]
+      id = ""
+      anonymizeIP = true
+
+  # Cookie consent
+  [params.cookieconsent]
+    enable = false
+    [params.cookieconsent.content]
+      message = ""
+      dismiss = ""
+      link = ""
+
+# Markup
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+  
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.renderer]
+      unsafe = true
+  
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
+
+# Sitemap
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+# Taxonomias
+[taxonomy]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+# Privacidade
+[privacy]
+  [privacy.x]
+    enableDNT = true
+  [privacy.youtube]
+    privacyEnhanced = true
+
+# Opções
+[mediaTypes]
+  [mediaTypes."text/plain"]
+    suffixes = ["md"]
+
+[outputFormats.MarkDown]
+  mediaType = "text/plain"
+  isPlainText = true
+  isHTML = false
+
+# Outputs
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML", "MarkDown"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML"]
