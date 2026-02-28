@@ -1,22 +1,23 @@
 ---
 title: "Sobre Mim"
-date: 2024-12-20
+date: 2026-02-28
 draft: false
 lightgallery: true
 ---
 
 ## Olá! 👋
 
-Meu nome é **Seu Nome** e sou apaixonado por tecnologia e desenvolvimento web.
+Meu nome é **Danilo** e trabalho com tecnologia e sou analista de qualidade de software.
 
 ### O que faço
 
-- 💼 Desenvolvedor Full Stack
-- 🎓 Eterno estudante
-- ✍️ Criador de conteúdo técnico
+- 🫙 Vários nadas, adoro meu sofá!
+- 💼 Testo uns sistemas ae, sou QA!
+- ⚽️✍️ Técnico de futebol amador, adoro cornetar e criticar! Sou palmeirense da turma do amendoin
 - 🚀 Entusiasta de tecnologia
+- 👴🏻 Reclamar! Acho que estamos involuindo como sociedade e estou/sou meio pessimista com algumas coisas
 
-### Tecnologias que uso
+<!-- ### Tecnologias que uso
 
 {{< admonition type=tip title="Frontend" open=true >}}
 - HTML5, CSS3, JavaScript
@@ -35,38 +36,36 @@ Meu nome é **Seu Nome** e sou apaixonado por tecnologia e desenvolvimento web.
 - Docker & Kubernetes
 - CI/CD (GitHub Actions)
 - VS Code, Vim
-{{< /admonition >}}
+{{< /admonition >}} -->
 
 ### Minha Jornada
 
-Comecei a programar em **2020** e desde então tenho me dedicado a aprender e compartilhar conhecimento. Este blog é uma forma de documentar minha jornada e ajudar outras pessoas que estão começando.
+Eu sou geração anos 80 (Millennials que fala né?) e vi esta tal de tecnologia nascer enquanto tudo era mato. Cursei **Analise e Desenvolvimento de Sistemas** (ADS, existe ainda isso?) e comecei a trabalhar com qualidade de software em **2008** e estou na mesma area até hoje. Este blog é uma forma de tirar um pouco as coisas da minha cabeça e escrever. Escrever um pouco sobre tudo...
 
 ### Por que este blog?
 
 Criei este blog para:
 
-1. 📝 **Documentar** meu aprendizado
-2. 🤝 **Compartilhar** conhecimento com a comunidade
-3. 💡 **Inspirar** outras pessoas a começarem na tecnologia
-4. 🎯 **Melhorar** minhas habilidades de comunicação
+Tirar minhas idéias da cachola e colocar em algum canto!
 
 ### Hobbies
 
-Quando não estou programando, gosto de:
+Quando não estou trabalhando, gosto de:
 
-- 📚 Ler livros (principalmente sobre tecnologia e ficção científica)
+- 📚 Ler livros
 - 🎮 Jogar videogames
 - 🎵 Ouvir música
-- ☕ Tomar um bom café enquanto codig
+- ☕ Café, Cerveja
+- 🐶🐾 Curtir meus dogs
 
 ### Entre em Contato
 
 Adoraria me conectar com você!
 
-- 📧 **Email**: seu-email@exemplo.com
-- 💼 **LinkedIn**: [seu-perfil](https://linkedin.com)
-- 🐙 **GitHub**: [seu-usuario](https://github.com/seu-usuario)
-- 🐦 **Twitter**: [@seu-usuario](https://twitter.com)
+- <i class="fa-solid fa-envelope"></i> [Email](mailto:marroco@tuta.io)
+- <i class="fa-brands fa-linkedin" style="color: rgb(17, 88, 214);"></i> [LinkedIn - Danilo](https://www.linkedin.com/in/danilomarroco/)
+- <i class="fa-brands fa-github"></i> [GitHub](https://github.com/danilomarroco)
+- <i class="fa-brands fa-mastodon" style="color: rgb(116, 192, 252);"></i> [Mastodon - SrMarroco](https://bolha.us/@marroco)
 
 ---
 

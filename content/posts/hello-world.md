@@ -1,16 +1,16 @@
 ---
 title: "Meu Primeiro Post com FixIt"
 subtitle: "Começando minha jornada no mundo dos blogs"
-date: 2024-12-20T10:00:00-03:00
-lastmod: 2024-12-20T10:00:00-03:00
+date: 2026-02-28T10:00:00-03:00
+lastmod: 2026-02-28T10:00:00-03:00
 draft: false
-author: "Seu Nome"
+author: "Danilo Marroco"
 description: "Este é meu primeiro post usando Hugo com o tema FixIt"
 
 tags: ["Hugo", "Blog", "Tutorial"]
 categories: ["Tecnologia"]
 
-featuredImage: ""
+featuredImage: "/meu-blog/images/posts/2026/02/hello.jpg"
 featuredImagePreview: ""
 
 toc:
