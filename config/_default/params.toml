@@ -1,0 +1,73 @@
+# Site description
+description = "Um blog sobre tecnologia, programação e vida"
+
+# Favicon (SVG)
+favicon = "favicon.svg"
+
+# Site logo (put your logo in static/ and reference it here)
+# site_logo = "img/logo.svg"
+
+# Ananke theme settings
+[ananke]
+show_recent_posts = true
+
+[ananke.home]
+content_alignment = "left"
+
+# Date format (Brazilian format)
+date_format = "02 de Janeiro de 2006"
+
+# Social networks follow configuration
+[ananke.social.follow]
+new_window_icon = false
+networks = ["github", "linkedin", "telegram", "mastodon", "email"]
+
+[ananke.social]
+icon_path = "ananke/socials/%s.svg"
+
+# Base network configurations (labels, icons)
+[ananke.social.networks.github]
+slug = "github"
+label = "GitHub"
+profile = "https://github.com/%s"
+icon = "github"
+
+[ananke.social.networks.linkedin]
+slug = "linkedin"
+label = "LinkedIn"
+profile = "https://linkedin.com/in/%s"
+icon = "linkedin"
+
+[ananke.social.networks.telegram]
+slug = "telegram"
+label = "Telegram"
+profile = "https://t.me/%s"
+icon = "telegram"
+
+[ananke.social.networks.mastodon]
+slug = "mastodon"
+label = "Mastodon"
+profile = "https://bolha.us/@%s"
+icon = "mastodon"
+
+[ananke.social.networks.email]
+slug = "email"
+label = "Email"
+profile = "mailto:%s"
+icon = "envelope"
+
+# User profiles (usernames)
+[ananke.social.github]
+username = "danilomarroco"
+
+[ananke.social.linkedin]
+username = "danilomarroco"
+
+[ananke.social.telegram]
+username = "dmarroco"
+
+[ananke.social.mastodon]
+username = "marroco"
+
+[ananke.social.email]
+username = "marroco@tuta.io"
